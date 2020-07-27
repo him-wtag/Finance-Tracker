@@ -37,6 +37,9 @@ gem 'devise-bootstrap-views', '~> 1.0'
 # A Ruby client for the The IEX Cloud API.
 gem 'iex-ruby-client'
 
+# provides the Font-Awesome web fonts and stylesheets
+gem "font-awesome-rails"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
